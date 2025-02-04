@@ -1,0 +1,22 @@
+[0.583s] Invoking command in '/home/dervis/similasyon_ws/build/self_driving_car_pkg': PYTHONPATH=/home/dervis/similasyon_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dervis/similasyon_ws/build/self_driving_car_pkg/build --no-deps symlink_data --force
+[0.706s] /home/dervis/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.706s]   warnings.warn(msg)
+[0.849s] running develop
+[1.033s] running egg_info
+[1.046s] writing self_driving_car_pkg.egg-info/PKG-INFO
+[1.047s] writing dependency_links to self_driving_car_pkg.egg-info/dependency_links.txt
+[1.047s] deleting self_driving_car_pkg.egg-info/entry_points.txt
+[1.047s] writing requirements to self_driving_car_pkg.egg-info/requires.txt
+[1.047s] writing top-level names to self_driving_car_pkg.egg-info/top_level.txt
+[1.074s] reading manifest file 'self_driving_car_pkg.egg-info/SOURCES.txt'
+[1.075s] writing manifest file 'self_driving_car_pkg.egg-info/SOURCES.txt'
+[1.089s] running build_ext
+[1.089s] Creating /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self-driving-car-pkg.egg-link (link to .)
+[1.090s] 
+[1.090s] Installed /home/dervis/similasyon_ws/build/self_driving_car_pkg
+[1.090s] running symlink_data
+[1.090s] symbolically linking /home/dervis/similasyon_ws/build/self_driving_car_pkg/resource/self_driving_car_pkg -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/ament_index/resource_index/packages
+[1.090s] symbolically linking /home/dervis/similasyon_ws/build/self_driving_car_pkg/package.xml -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg
+[1.091s] creating /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg/launch
+[1.091s] creating /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg/worlds
+[1.111s] Invoked command in '/home/dervis/similasyon_ws/build/self_driving_car_pkg' returned '0': PYTHONPATH=/home/dervis/similasyon_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dervis/similasyon_ws/build/self_driving_car_pkg/build --no-deps symlink_data --force

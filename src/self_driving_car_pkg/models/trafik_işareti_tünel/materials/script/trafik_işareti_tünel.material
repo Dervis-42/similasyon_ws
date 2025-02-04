@@ -1,0 +1,14 @@
+material trafik_işareti_tünel/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tünel.png
+        
+      }
+    }
+  }
+}

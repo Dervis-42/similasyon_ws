@@ -1,0 +1,14 @@
+material trafik_işareti_20/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 20.png
+        
+      }
+    }
+  }
+}

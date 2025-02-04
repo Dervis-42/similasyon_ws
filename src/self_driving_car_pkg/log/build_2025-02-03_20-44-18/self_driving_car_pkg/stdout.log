@@ -1,0 +1,8 @@
+running egg_info
+creating build/self_driving_car_pkg/self_driving_car_pkg.egg-info
+writing build/self_driving_car_pkg/self_driving_car_pkg.egg-info/PKG-INFO
+writing dependency_links to build/self_driving_car_pkg/self_driving_car_pkg.egg-info/dependency_links.txt
+writing requirements to build/self_driving_car_pkg/self_driving_car_pkg.egg-info/requires.txt
+writing top-level names to build/self_driving_car_pkg/self_driving_car_pkg.egg-info/top_level.txt
+writing manifest file 'build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'

@@ -1,0 +1,14 @@
+material trafik_işareti_dur/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture dur.png
+        
+      }
+    }
+  }
+}

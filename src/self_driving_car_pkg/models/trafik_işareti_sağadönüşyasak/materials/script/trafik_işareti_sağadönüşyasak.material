@@ -1,0 +1,14 @@
+material trafik_işareti_sağadönüşyasak/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture sağadönüşyasak.png
+        
+      }
+    }
+  }
+}

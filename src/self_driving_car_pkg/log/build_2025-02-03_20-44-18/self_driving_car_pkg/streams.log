@@ -1,0 +1,42 @@
+[0.682s] Invoking command in '/home/dervis/similasyon_ws/src/self_driving_car_pkg': PYTHONPATH=/home/dervis/similasyon_ws/src/self_driving_car_pkg/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/src/self_driving_car_pkg/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/self_driving_car_pkg build --build-base /home/dervis/similasyon_ws/src/self_driving_car_pkg/build/self_driving_car_pkg/build install --record /home/dervis/similasyon_ws/src/self_driving_car_pkg/build/self_driving_car_pkg/install.log --single-version-externally-managed install_data
+[0.818s] /home/dervis/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.818s]   warnings.warn(msg)
+[0.900s] running egg_info
+[0.914s] creating build/self_driving_car_pkg/self_driving_car_pkg.egg-info
+[0.914s] writing build/self_driving_car_pkg/self_driving_car_pkg.egg-info/PKG-INFO
+[0.914s] writing dependency_links to build/self_driving_car_pkg/self_driving_car_pkg.egg-info/dependency_links.txt
+[0.915s] writing requirements to build/self_driving_car_pkg/self_driving_car_pkg.egg-info/requires.txt
+[0.915s] writing top-level names to build/self_driving_car_pkg/self_driving_car_pkg.egg-info/top_level.txt
+[0.915s] writing manifest file 'build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+[0.943s] reading manifest file 'build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+[0.943s] Traceback (most recent call last):
+[0.943s]   File "/home/dervis/similasyon_ws/src/self_driving_car_pkg/setup.py", line 6, in <module>
+[0.943s]     setup(
+[0.943s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.943s]     return distutils.core.setup(**attrs)
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.944s]     return run_commands(dist)
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.944s]     dist.run_commands()
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 983, in run_commands
+[0.944s]     self.run_command(cmd)
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+[0.944s]     super().run_command(command)
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_command
+[0.944s]     cmd_obj.run()
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.944s]     self.find_sources()
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.944s]     mm.run()
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.944s]     self.prune_file_list()
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.944s]     super().prune_file_list()
+[0.944s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[0.944s]     base_dir = self.distribution.get_fullname()
+[0.945s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 272, in get_fullname
+[0.945s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.945s]   File "/home/dervis/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 290, in _distribution_fullname
+[0.945s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.945s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.961s] Invoked command in '/home/dervis/similasyon_ws/src/self_driving_car_pkg' returned '1': PYTHONPATH=/home/dervis/similasyon_ws/src/self_driving_car_pkg/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/src/self_driving_car_pkg/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/self_driving_car_pkg build --build-base /home/dervis/similasyon_ws/src/self_driving_car_pkg/build/self_driving_car_pkg/build install --record /home/dervis/similasyon_ws/src/self_driving_car_pkg/build/self_driving_car_pkg/install.log --single-version-externally-managed install_data

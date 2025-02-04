@@ -1,0 +1,14 @@
+material trafik_işareti_solaileri/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture solaileri.png
+        
+      }
+    }
+  }
+}

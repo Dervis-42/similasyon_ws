@@ -1,0 +1,14 @@
+material trafik_işareti_soladön/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture soladön.png
+        
+      }
+    }
+  }
+}

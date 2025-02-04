@@ -1,0 +1,14 @@
+material trafik_işareti_gidişdönüş/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture gidişdönüş.png
+        
+      }
+    }
+  }
+}

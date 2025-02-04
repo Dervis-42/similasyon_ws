@@ -1,0 +1,14 @@
+material trafik_işareti_yaya_2/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture yaya_2.png
+        
+      }
+    }
+  }
+}

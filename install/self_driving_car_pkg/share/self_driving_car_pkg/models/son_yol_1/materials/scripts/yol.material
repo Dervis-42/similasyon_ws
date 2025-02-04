@@ -1,0 +1,14 @@
+material yol/Diffuse
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture yol.png
+                
+            }
+        }
+    }
+}

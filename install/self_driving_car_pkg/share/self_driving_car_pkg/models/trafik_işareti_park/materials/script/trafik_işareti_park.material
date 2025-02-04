@@ -1,0 +1,14 @@
+material trafik_işareti_park/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture park.png
+        
+      }
+    }
+  }
+}

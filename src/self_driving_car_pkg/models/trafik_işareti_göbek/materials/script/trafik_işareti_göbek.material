@@ -1,0 +1,14 @@
+material trafik_işareti_göbek/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture göbek.png
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+material trafik_işareti_parkyasak/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture parkyasak.png
+        
+      }
+    }
+  }
+}

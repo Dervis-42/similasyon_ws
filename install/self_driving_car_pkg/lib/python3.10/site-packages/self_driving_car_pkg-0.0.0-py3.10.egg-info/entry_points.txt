@@ -1,0 +1,4 @@
+[console_scripts]
+drive_node = self_driving_car_pkg.drive_node:main
+spawner_node = self_driving_car_pkg.sdf_spawner:main
+vision_node = self_driving_car_pkg.vision_node:main

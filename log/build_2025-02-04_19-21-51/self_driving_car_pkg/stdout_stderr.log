@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/requires.txt
+writing top-level names to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/top_level.txt
+reading manifest file '../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying self_driving_car_pkg/__init__.py -> /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg
+copying self_driving_car_pkg/drive_node.py -> /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg
+copying self_driving_car_pkg/vision_node.py -> /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg
+running install
+running install_lib
+running install_data
+copying resource/self_driving_car_pkg -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg
+copying worlds/sdc.world -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg/worlds
+running install_egg_info
+removing '/home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info to /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing drive_node script to /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/self_driving_car_pkg
+Installing vision_node script to /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/self_driving_car_pkg
+writing list of installed files to '/home/dervis/similasyon_ws/build/self_driving_car_pkg/install.log'

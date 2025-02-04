@@ -1,0 +1,14 @@
+material trafik_işareti_epark/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture epark.png
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+[0.620s] Invoking command in '/home/dervis/similasyon_ws/build/self_driving_car_pkg': PYTHONPATH=/home/dervis/similasyon_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dervis/similasyon_ws/build/self_driving_car_pkg/build
+[0.883s] running develop
+[1.076s] Removing /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self-driving-car-pkg.egg-link (link to .)
+[1.105s] Invoked command in '/home/dervis/similasyon_ws/build/self_driving_car_pkg' returned '0': PYTHONPATH=/home/dervis/similasyon_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dervis/similasyon_ws/build/self_driving_car_pkg/build
+[1.106s] Invoking command in '/home/dervis/similasyon_ws/src/self_driving_car_pkg': PYTHONPATH=/home/dervis/similasyon_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_driving_car_pkg build --build-base /home/dervis/similasyon_ws/build/self_driving_car_pkg/build install --record /home/dervis/similasyon_ws/build/self_driving_car_pkg/install.log --single-version-externally-managed install_data --force
+[1.325s] running egg_info
+[1.339s] writing ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/PKG-INFO
+[1.339s] writing dependency_links to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/dependency_links.txt
+[1.339s] writing entry points to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/entry_points.txt
+[1.339s] writing requirements to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/requires.txt
+[1.340s] writing top-level names to ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/top_level.txt
+[1.369s] reading manifest file '../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+[1.370s] writing manifest file '../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info/SOURCES.txt'
+[1.370s] running build
+[1.370s] running build_py
+[1.371s] copying self_driving_car_pkg/__init__.py -> /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg
+[1.371s] copying self_driving_car_pkg/drive_node.py -> /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg
+[1.371s] copying self_driving_car_pkg/sdf_spawner.py -> /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg
+[1.371s] copying self_driving_car_pkg/vision_node.py -> /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg
+[1.371s] running install
+[1.376s] running install_lib
+[1.390s] creating /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg
+[1.390s] copying /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg/__init__.py -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg
+[1.390s] copying /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg/drive_node.py -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg
+[1.391s] copying /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg/sdf_spawner.py -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg
+[1.391s] copying /home/dervis/similasyon_ws/build/self_driving_car_pkg/build/lib/self_driving_car_pkg/vision_node.py -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg
+[1.391s] byte-compiling /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg/__init__.py to __init__.cpython-310.pyc
+[1.391s] byte-compiling /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg/drive_node.py to drive_node.cpython-310.pyc
+[1.391s] byte-compiling /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg/sdf_spawner.py to sdf_spawner.cpython-310.pyc
+[1.392s] byte-compiling /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg/vision_node.py to vision_node.cpython-310.pyc
+[1.392s] running install_data
+[1.392s] copying resource/self_driving_car_pkg -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/ament_index/resource_index/packages
+[1.392s] copying package.xml -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg
+[1.393s] creating /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg/launch
+[1.393s] copying worlds/sdc.world -> /home/dervis/similasyon_ws/install/self_driving_car_pkg/share/self_driving_car_pkg/worlds
+[1.393s] running install_egg_info
+[1.409s] Copying ../../build/self_driving_car_pkg/self_driving_car_pkg.egg-info to /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages/self_driving_car_pkg-0.0.0-py3.10.egg-info
+[1.409s] running install_scripts
+[1.528s] Installing drive_node script to /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/self_driving_car_pkg
+[1.529s] Installing spawner_node script to /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/self_driving_car_pkg
+[1.529s] Installing vision_node script to /home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/self_driving_car_pkg
+[1.529s] writing list of installed files to '/home/dervis/similasyon_ws/build/self_driving_car_pkg/install.log'
+[1.549s] Invoked command in '/home/dervis/similasyon_ws/src/self_driving_car_pkg' returned '0': PYTHONPATH=/home/dervis/similasyon_ws/build/self_driving_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dervis/similasyon_ws/install/self_driving_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/self_driving_car_pkg build --build-base /home/dervis/similasyon_ws/build/self_driving_car_pkg/build install --record /home/dervis/similasyon_ws/build/self_driving_car_pkg/install.log --single-version-externally-managed install_data --force
